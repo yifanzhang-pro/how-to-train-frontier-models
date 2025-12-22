@@ -6,7 +6,7 @@
 
 1. Pretrain a gigantic MoE model from scratch using a full attention model (GQA or TPA https://arxiv.org/abs/2501.06425 [1]) mixed with some shortSWA (https://yifanzhang-pro.github.io/Rethinking-SWA/, used in GPT-OSS) or (Higher) Linear Attention (https://arxiv.org/abs/2510.27258 [2]) and [To-be-announced] equipped with Multi-token Prediction (MTP), which we call Pro-Base. Notably, please replace RoPE with Multiplicative GRAPE combined with additive position encodings, such as Additive GRAPE and Alibi (https://arxiv.org/abs/2512.07805 [3])!
 
-2. Midtrain the Pro-Base model using High-quality STEM datasets, such as AutoMathText (https://arxiv.org/abs/2402.07625 [4]) and AutoMathText-V2 (https://iiis-ai.github.io/AutoMathText-V2), 2.4T unique tokens, used in Kimi K2.5 and Kimi K3), which we called Pro.
+2. Midtrain the Pro-Base model using High-quality STEM datasets, such as AutoMathText (https://arxiv.org/abs/2402.07625 [4]) and AutoMathText-V2 (https://iiis-ai.github.io/AutoMathText-V2), 2.4T unique tokens, used in Kimi K2.5 and Kimi K3), which we call Pro.
 
 3. Perform large-scale Reinforcement Learning on this gigantic model using (KL-Regularized) Policy Gradients (RPG: https://arxiv.org/abs/2505.17508 [5]), which we call Pro-Instruct.
 
