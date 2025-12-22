@@ -21,11 +21,13 @@ This is what you need!
 ### References
 
 1. Tensor Product Attention Is All You Need
+
 **Yifan Zhang***, Yifeng Liu*, Huizhuo Yuan, Zhen Qin, Yang Yuan, Quanquan Gu, Andrew C Yao
 
 Conference on Neural Information Processing Systems (NeurIPS 2025 Spotlight)
 
 2. Higher-order Linear Attention
+
 **Yifan Zhang**, Zhen Qin, Quanquan Gu
 
 arXiv:2510.27258
