@@ -1,4 +1,4 @@
-# 💡How to train a frontier model effectively?
+# 💡How to train frontier models effectively?
 
 **Author:** **Yifan Zhang**
 
