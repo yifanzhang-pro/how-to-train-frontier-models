@@ -18,7 +18,7 @@
 
 This is what you need!
 
-### References
+## References
 
 1. [**Tensor Product Attention Is All You Need**](https://arxiv.org/pdf/2501.06425) 
 
@@ -73,3 +73,16 @@ Transactions on Machine Learning Research (TMLR)
 **Yifan Zhang**, et al.
 
 arXiv:2510.22907, see also Claude Code v2.0.74
+
+## Citation
+
+```bibtex
+@article{zhang2025how,
+  title = {How to Train Frontier Models Effectively},
+  author = {Zhang, Yifan},
+  journal = {yifanzhang-pro.github.io},
+  year = {2025},
+  month = {December},
+  url = "https://github.com/yifanzhang-pro/how-to-train-frontier-models"
+}
+```
